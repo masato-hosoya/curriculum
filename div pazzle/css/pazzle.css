@@ -1,0 +1,225 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  } 
+  .header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+  }
+
+
+  .box{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+  }
+
+  .box1{
+    width: 60px;
+    height: 60px;
+    background-color: #a9004b;
+    border: 10px solid white;
+    box-sizing: border-box;
+    float: right;
+    
+
+  }
+  .box2{
+    width: 60px;
+    height: 60px;
+    background-color: #a9004b;
+    border: 10px solid white;
+    box-sizing: border-box;
+    float: right;
+    position: relative;
+    left: 10px;
+
+  }
+  .box3{
+    width: 60px;
+    height: 60px;
+    background-color: #a9004b;
+    border: 10px solid white;
+    box-sizing: border-box;
+    float: right;
+    position: relative;
+    left: 20px;
+
+  }
+  .main{
+    width: 400px;
+    height: 250px;
+
+
+  }
+  .left{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+  }
+  .right{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: left;
+
+  }
+
+  .box4{
+    width: 150px;
+    height: 50px;
+    background-color: #ff863f;
+    border: 5px solid white;
+    box-sizing: border-box;
+    position: relative;
+    top: 40px;
+    left: 40px;
+
+  }
+  .box5{
+    width: 150px;
+    height: 50px;
+    background-color: #ff863f;
+    border: 5px solid white;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    left: 40px;
+
+  }
+  .box6{
+    width: 150px;
+    height: 50px;
+    background-color: #ff863f;
+    border: 5px solid white;
+    box-sizing: border-box;
+    position: relative;
+    top: 60px;
+    left: 40px;
+
+  }
+  .footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+  }
+  @media screen and (max-width: 479px){
+    .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+    } 
+    .header{
+      width: 200px;
+      height: 200px;
+      background-color: #141f40;
+    }
+  
+  
+    .box{
+  
+      position: relative;
+ 
+    }
+  
+    .box1{
+      width: 60px;
+      height: 60px;
+      background-color: #a9004b;
+      border: 10px solid white;
+      box-sizing: border-box;
+      position: relative;
+      top: 100px;
+      right: 50px;
+      
+      
+      
+  
+    }
+    .box2{
+      width: 60px;
+      height: 60px;
+      background-color: #a9004b;
+      border: 10px solid white;
+      box-sizing: border-box;
+      float: right;
+      position: relative;
+      left: 10px;
+      top: 50px;
+  
+    }
+    .box3{
+      width: 60px;
+      height: 60px;
+      background-color: #a9004b;
+      border: 10px solid white;
+      box-sizing: border-box;
+      float: right;
+      position: relative;
+      left: 70px;
+      
+  
+    }
+    .main{
+      width: 200px;
+      height: 300px;
+      
+    }
+    .left{
+      width: 200px;
+      height: 100px;
+      background-color: #80bfa8;
+
+    }
+    .right{
+      width: 200px;
+      height: 200px;
+      background-color: #8c2727;
+      float: left;
+      
+    }
+  
+    .box4{
+      width: 140px;
+      height: 50px;
+      background-color: #ff863f;
+      border: 5px solid white;
+      box-sizing: border-box;
+      position: relative;
+      top: 20px;
+      left: 30px;
+      float: left;
+    }
+    .box5{
+      width: 140px;
+      height: 50px;
+      background-color: #ff863f;
+      border: 5px solid white;
+      box-sizing: border-box;
+      position: relative;
+      top: 25px;
+      left: 30px;
+      float: left;
+    }
+    .box6{
+      width: 140px;
+      height: 50px;
+      background-color: #ff863f;
+      border: 5px solid white;
+      box-sizing: border-box;
+      position: relative;
+      top: 30px;
+      left: 30px;
+      float: left;
+    }
+    .footer{
+      width: 200px;
+      height: 100px;
+      background-color: #d98d30;
+    }
+    
+  }
